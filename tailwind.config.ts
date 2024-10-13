@@ -10,6 +10,32 @@ const config: Config = {
   theme: {
   	extend: {
   		colors: {
+			white: {
+				DEFAULT: "#FFFFFF",
+				1: "#FFFFFF",
+				2: "rgba(255, 255, 255, 0.72)",
+				3: "rgba(255, 255, 255, 0.4)",
+				4: "rgba(255, 255, 255, 0.64)",
+				5: "rgba(255, 255, 255, 0.80)",
+			},
+			black: {
+				DEFAULT: "#000000",
+				1: "#15171C",
+				2: "#222429",
+				3: "#101114",
+				4: "#252525",
+				5: "#2E3036",
+				6: "#24272C",
+				7: "#111827"
+			},
+			orange: {
+				DEFAULT: "#F97535",
+				1: "#F97535",
+			},
+			gray: {
+				DEFAULT: "#71788B",
+				1: "#71788B",
+			},
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
